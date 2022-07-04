@@ -1,0 +1,13 @@
+file_type: csv
+dataset_name: eng_text
+file_name: eng
+table_name: text_info
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - title
+    - url
+    - abstract
+    - body_text
+    - body_html
